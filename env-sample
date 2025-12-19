@@ -1,0 +1,16 @@
+# Remote Scaleway DB
+REMOTE_PGHOST='remote-host'
+REMOTE_PGPORT=XXXXX
+REMOTE_PGDATABASE='dbname'
+REMOTE_PGUSER='dbuser'
+REMOTE_PGPASSWORD='dbpass'
+
+# Local Docker DB
+LOCAL_DB_CONTAINER=dbcontainer
+LOCAL_DB_NAME=dbname
+LOCAL_DB_USER=dbuser
+
+# Optional overrides
+# DUMP_FILE=/data/db-import/prod_20251219_031522.dump
+# LOG_DIR=./db-migration/logs
+# BACKUP_DIR=./db-migration/backups
